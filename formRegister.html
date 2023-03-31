@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro do Usuário</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/280d7ede1c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="form">
+        <h2>Tela de Registro</h2>
+        <form action="/auth/register" method="post">
+            <label for="name">Nome</label>
+            <div class="input">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name="name" placeholder="Informe seu nome">
+            </div>
+            <label for="email">E-mail</label>
+            <div class="input">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="text" name="email" placeholder="Informe seu e-mail">
+            </div>
+            <label for="password">Senha</label>
+            <div class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="password" placeholder="Informe sua senha">
+            </div>
+            <label for="confirmpassword">Confirme a senha</label>
+            <div class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="confirmpassword" placeholder="Confirme sua senha">
+            </div>
+
+            <div id="btn">
+                <button type="submit">Cadastrar</button>
+                <!-- <input type="submit" value="Enviar"> -->
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
